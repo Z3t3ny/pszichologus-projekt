@@ -7,7 +7,16 @@ print"
 
         <script>
 
+            alert('Sikeresen kilépett!')
+            
             parent.location.href='http://localhost/zz/wvp/index.php'
+
+       
+
+            
+
+
+
 
         </script>
     ";

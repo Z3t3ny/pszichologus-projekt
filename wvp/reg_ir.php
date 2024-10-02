@@ -57,7 +57,14 @@ https://weissesvagyok.hu/regisztracio-megerosites/" . $strid . "
 //	mail( $_POST['uemail'] , "Regisztráció megerősítése" , $uzenet , "From:ne-valaszolj@weissesvagyok.hu" ) ;
 
 
-	print  "<script> alert('Regisztrációd sikeresen megtörtént.') </script>"  ;
+	print  "<script> 
+				
+				alert('Regisztrációd sikeresen megtörtént.') 
+			
+				parent.location.href = \"http://localhost/zz/wvp/belepes\" 
+			
+			</script>" ;
+			
 
 
     mysqli_close( $adb ) ;

@@ -73,6 +73,7 @@ CREATE TABLE `user` (
   `ustrid` varchar(10) NOT NULL,
   `unick` varchar(16) NOT NULL,
   `upw` varchar(40) NOT NULL,
+  `unev` varchar(30) NOT NULL,
   `uwmail` varchar(100) NOT NULL,
   `uemail` varchar(100) NOT NULL,
   `uom` varchar(11) NOT NULL,
